@@ -1,0 +1,25 @@
+{
+  "name": "datadump",
+  "version": "1.0.0",
+  "description": "express server for getting and saving data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancyjimmy/datadump.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fancyjimmy/datadump/issues"
+  },
+  "homepage": "https://github.com/fancyjimmy/datadump#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "lowdb": "^3.0.0"
+  }
+}
