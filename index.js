@@ -12,7 +12,6 @@ const adapter = new JSONFile(join(__dirname, process.env.DATAPATH));
 const db = new Low( adapter);
 
 
-
 app.listen(port, () => {
     console.log("listening on port http://localhost:3000");
 })
